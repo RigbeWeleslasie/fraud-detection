@@ -1,0 +1,34 @@
+# Data (large files — do not commit)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Models (large artifacts)
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
