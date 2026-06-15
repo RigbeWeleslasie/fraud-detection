@@ -1,4 +1,4 @@
-# Data (large files — do not commit)
+# Data (large files — do not commit raw data)
 data/
 
 # Python
@@ -20,10 +20,8 @@ build/
 venv/
 env/
 
-# Models (large artifacts)
-models/*.pkl
-models/*.joblib
-models/*.h5
+# Large SHAP artifacts (>2MB each — excluded to keep repo lightweight)
+models/shap_*.pkl
 
 # OS
 .DS_Store
